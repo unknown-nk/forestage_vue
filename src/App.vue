@@ -1,11 +1,13 @@
 <script setup lang="ts">
 import Header from "./components/Header.vue";
 import Main from "./components/Main.vue";
+import Nav from "./components/Nav.vue";
 </script>
 
 <template>
   <div class="relative">
     <Header class="absolute" />
+    <Nav class="absolute top-[100px]" />
     <Main class="absolute" />
   </div>
 </template>
