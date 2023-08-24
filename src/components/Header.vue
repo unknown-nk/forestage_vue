@@ -1,8 +1,8 @@
 <template>
-  <header class="w-full h-[100px] z-40 grid grid-cols-4 text-white">
+  <header class="w-full h-[80px] z-40 grid grid-cols-4 text-white">
     <h1 class="col-span-1 z-50">
       <p
-        class="h-full pl-[100px] text-lg font-bold leading-normal flex items-center"
+        class="h-full pl-[90px] text-lg font-bold leading-normal flex items-center"
       >
         Dessert Town
       </p>
@@ -20,9 +20,10 @@
 </script>
 <style lang="scss" scoped>
 h1 {
-  background-image: url("../assets/img/logo.svg");
-  background-size: 100%;
-  width: 100px;
-  height: 100px;
+  background-image: url('../assets/img/logo.svg');
+  background-size: 120%;
+  background-position-y: center;
+  width: 80px;
+  height: 80px;
 }
 </style>
