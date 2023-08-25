@@ -1,22 +1,20 @@
 <script setup lang="ts">
-import Header from './components/Header.vue';
-import Main from './components/Main.vue';
-import Nav from './components/Nav.vue';
-import Baker from './components/Baker.vue';
-import ReturnTop from './components/ReturnTop.vue';
-import Evaluate from './components/Evaluate.vue';
+import Header from "./components/Header.vue";
+
+import Nav from "./components/Nav.vue";
+import Baker from "./components/Baker.vue";
+import ReturnTop from "./components/ReturnTop.vue";
+import Evaluate from "./components/Evaluate.vue";
 </script>
 
 <template>
-  <div class="relative">
-    <Header class="absolute" />
-    <Nav class="absolute top-[80px]" />
-    <Main class="absolute" />
+  <Header class="absolute" />
+  <Nav class="sticky top-0 -mt-[863px]" />
+  <div class="mt-[863px]">
     <Baker />
     <Evaluate />
-
-    <ReturnTop class="z-50" />
   </div>
+  <ReturnTop class="z-50" />
 </template>
 
 <style scoped>
