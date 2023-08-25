@@ -1,27 +1,22 @@
 <template>
-  <div class="relative">
-    <header class="w-full h-[80px] z-40 grid grid-cols-4 text-white absolute">
-      <h1 class="z-50 col-span-1">
-        <p
-          class="h-full pl-[90px] text-lg font-bold leading-normal flex items-center"
-        >
-          Dessert Town
-        </p>
-      </h1>
-      <div class="z-50 self-center col-span-2 col-start-3 place-self-end">
-        <ul class="flex">
-          <li class="px-2"><i></i>會員登入</li>
-          <li class="px-2"><i></i>關於我們</li>
-        </ul>
-      </div>
-      <div class="absolute w-full h-full bg-black opacity-60"></div>
-    </header>
-
-    <Main class="absolute" />
-  </div>
+  <header class="w-full h-[80px] z-40 grid grid-cols-4 text-white">
+    <h1 class="z-50 col-span-1">
+      <p
+        class="h-full pl-[90px] text-lg font-bold leading-normal flex items-center"
+      >
+        Dessert Town
+      </p>
+    </h1>
+    <div class="z-50 self-center col-span-2 col-start-3 place-self-end">
+      <ul class="flex">
+        <li class="px-2"><i></i>會員登入</li>
+        <li class="px-2"><i></i>關於我們</li>
+      </ul>
+    </div>
+    <div class="absolute w-full h-full bg-black opacity-60"></div>
+  </header>
 </template>
 <script setup lang="ts">
-import Main from "./Main.vue";
 </script>
 <style lang="scss" scoped>
 h1 {

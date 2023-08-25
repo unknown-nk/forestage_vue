@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "ngrok":"ngrok http --host-header=rewrite 5173"
   },
   "dependencies": {
     "swiper": "^10.2.0",
