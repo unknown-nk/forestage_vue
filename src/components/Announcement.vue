@@ -74,21 +74,6 @@
             ></i
           ></a>
         </li>
-        <li
-          class="py-4 border-b border-dashed border-slate-300 hover:text-yellow-500"
-        >
-          <a href="javascript;">
-            <span>2023/02/02</span
-            ><i
-              class="px-6 text-yellow-500 -rotate-45 fa-solid fa-thumbtack"
-            ></i
-            ><span
-              >公告6 DIY甜點工坊：親手製作夢幻糖霜餅乾，與朋友共度美好時光</span
-            ><i
-              class="absolute right-0 fa-solid fa-angle-right text-slate-400"
-            ></i
-          ></a>
-        </li>
       </ul>
     </div>
   </article>
