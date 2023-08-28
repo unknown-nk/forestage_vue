@@ -1,5 +1,5 @@
 <template>
-  <article class="w-full h-[800px] flex flex-col justify-center items-center">
+  <article class="flex flex-col items-center justify-center w-full h-screen">
     <h3 class="text-3xl tracking-widest">顧客回饋</h3>
     <swiper
       :modules="modules"

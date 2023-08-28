@@ -5,6 +5,9 @@ import Nav from "./components/Nav.vue";
 import Baker from "./components/Baker.vue";
 import ReturnTop from "./components/ReturnTop.vue";
 import Evaluate from "./components/Evaluate.vue";
+import Footer from "./components/Footer.vue";
+import Announcement from "./components/Announcement.vue";
+import Banner from "./components/Banner.vue";
 </script>
 
 <template>
@@ -12,10 +15,13 @@ import Evaluate from "./components/Evaluate.vue";
     <Header class="absolute" />
     <Nav class="absolute top-[80px]" />
     <Main class="absolute" />
+    <Banner />
+    <Announcement />
     <Baker />
-    <Evaluate />
 
+    <Evaluate />
     <ReturnTop class="z-50" />
+    <Footer />
   </div>
 </template>
 
