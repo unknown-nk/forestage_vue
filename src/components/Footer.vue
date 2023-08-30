@@ -5,17 +5,37 @@
     <div class="w-[1024px] h-full">
       <ul class="flex justify-around text-center">
         <li>
-          <p class="text-lg font-semibold tracking-widest">線上訂購</p>
+          <p class="mb-2 text-lg font-semibold tracking-widest">線上訂購</p>
 
-          <ul>
-            <li>a</li>
-            <li>b</li>
-            <li>c</li>
+          <ul class="text-sm">
+            <li class="py-1">肉桂捲禮盒</li>
+            <li class="py-1">黏土餅乾</li>
+            <li class="py-1">生羊奶捲</li>
           </ul>
         </li>
-        <li>2</li>
-        <li>3</li>
-        <li>4</li>
+        <li>
+          <p class="mb-2 text-lg font-semibold tracking-widest">購物須知</p>
+
+          <ul class="text-sm">
+            <li class="py-1">關於網購</li>
+            <li class="py-1">實體購買</li>
+          </ul>
+        </li>
+        <li>
+          <p class="mb-2 text-lg font-semibold tracking-widest">分店資訊</p>
+
+          <ul class="text-sm">
+            <li class="py-1">台北旗艦店</li>
+            <li class="py-1">屏東鮪魚店</li>
+          </ul>
+        </li>
+        <li>
+          <p class="mb-2 text-lg font-semibold tracking-widest">線上客服</p>
+
+          <ul class="text-sm">
+            <li class="py-1">客服機器人</li>
+          </ul>
+        </li>
       </ul>
     </div>
     <div

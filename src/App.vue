@@ -15,8 +15,9 @@ import Banner from "./components/Banner.vue";
     <Header class="absolute" />
     <Nav class="absolute top-[80px]" />
     <Main class="absolute" />
-    <Banner />
     <Announcement />
+    <Banner />
+
     <Baker />
 
     <Evaluate />

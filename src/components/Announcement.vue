@@ -68,7 +68,7 @@
               class="px-6 text-yellow-500 -rotate-45 fa-solid fa-thumbtack"
             ></i
             ><span
-              >公告5 探索世界甜點之旅：品尝各國經典甜品，盡在我們的甜點節</span
+              >公告5 探索世界甜點之旅：品嘗各國經典甜品，盡在我們的甜點節</span
             ><i
               class="absolute right-0 fa-solid fa-angle-right text-slate-400"
             ></i

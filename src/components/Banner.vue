@@ -19,7 +19,7 @@
       </template>
     </swiper>
     <div class="absolute -top-[50%] w-full h-full -z-10">
-      <div class="flex items-center blur-md opacity-60">
+      <div class="flex items-center blur-md opacity-30">
         <img
           :src="bannerData[swiperIndex].bannerUrl"
           alt=""
